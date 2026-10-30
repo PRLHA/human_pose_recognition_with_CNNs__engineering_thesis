@@ -1,0 +1,81 @@
+3.11.2 (main, Apr  8 2026, 01:58:00) [GCC 12.2.0]
+########## Model Path is ./model/keypoint_model.keras
+Refit model is True
+Train generator:
+  - 800 images (25 batches of 32)
+Validation generator:
+  - 224 images (7 batches of 32)
+Training new model...
+nr of layers 189
+Training head only for 8 epochs...
+Epoch 1/8
+
+Epoch 1: val_loss improved from None to 0.08515, saving model to best_keypoint_model.keras
+
+Epoch 1: finished saving model to best_keypoint_model.keras
+25/25 - 207s - 8s/step - loss: 0.1839 - val_loss: 0.0851
+Epoch 2/8
+
+Epoch 2: val_loss improved from 0.08515 to 0.07710, saving model to best_keypoint_model.keras
+
+Epoch 2: finished saving model to best_keypoint_model.keras
+25/25 - 88s - 4s/step - loss: 0.1640 - val_loss: 0.0771
+Epoch 3/8
+
+Epoch 3: val_loss improved from 0.07710 to 0.06964, saving model to best_keypoint_model.keras
+
+Epoch 3: finished saving model to best_keypoint_model.keras
+25/25 - 86s - 3s/step - loss: 0.1577 - val_loss: 0.0696
+Epoch 4/8
+
+Epoch 4: val_loss did not improve from 0.06964
+25/25 - 84s - 3s/step - loss: 0.1530 - val_loss: 0.0846
+Epoch 5/8
+
+Epoch 5: val_loss did not improve from 0.06964
+25/25 - 84s - 3s/step - loss: 0.1530 - val_loss: 0.0822
+Epoch 6/8
+
+Epoch 6: val_loss did not improve from 0.06964
+25/25 - 84s - 3s/step - loss: 0.1519 - val_loss: 0.0785
+Epoch 7/8
+
+Epoch 7: val_loss did not improve from 0.06964
+25/25 - 84s - 3s/step - loss: 0.1472 - val_loss: 0.0753
+Epoch 8/8
+
+Epoch 8: val_loss improved from 0.06964 to 0.05042, saving model to best_keypoint_model.keras
+
+Epoch 8: finished saving model to best_keypoint_model.keras
+25/25 - 86s - 3s/step - loss: 0.1376 - val_loss: 0.0504
+Restoring model weights from the end of the best epoch: 8.
+Fine-tuning full model with last 35 layers unfrozen...
+Epoch 9/100
+
+Epoch 9: val_loss improved from 0.05042 to 0.04766, saving model to best_keypoint_model.keras
+
+Epoch 9: finished saving model to best_keypoint_model.keras
+25/25 - 142s - 6s/step - loss: 0.1387 - val_loss: 0.0477
+Epoch 10/100
+
+Epoch 10: val_loss did not improve from 0.04766
+25/25 - 93s - 4s/step - loss: 0.1397 - val_loss: 0.0509
+Epoch 11/100
+
+Epoch 11: val_loss did not improve from 0.04766
+25/25 - 93s - 4s/step - loss: 0.1381 - val_loss: 0.0544
+Epoch 12/100
+
+Epoch 12: val_loss did not improve from 0.04766
+25/25 - 93s - 4s/step - loss: 0.1397 - val_loss: 0.0711
+Epoch 13/100
+
+Epoch 13: val_loss did not improve from 0.04766
+25/25 - 93s - 4s/step - loss: 0.1418 - val_loss: 0.0760
+Epoch 14/100
+
+Epoch 14: val_loss did not improve from 0.04766
+25/25 - 93s - 4s/step - loss: 0.1405 - val_loss: 0.0671
+Epoch 14: early stopping
+Restoring model weights from the end of the best epoch: 9.
+Model saved to ./model/keypoint_model.keras

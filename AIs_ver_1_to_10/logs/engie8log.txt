@@ -1,0 +1,429 @@
+3.11.2 (main, Apr  8 2026, 01:58:00) [GCC 12.2.0]
+########## Model Path is ./model/keypoint_model.keras
+Refit model is True
+Train generator:
+  - 800 images (50 batches of 16)
+Validation generator:
+  - 208 images (13 batches of 16)
+Training new model...
+Epoch 1/100
+
+Epoch 1: val_loss improved from None to 0.08036, saving model to best_keypoint_model.keras
+
+Epoch 1: finished saving model to best_keypoint_model.keras
+50/50 - 240s - 5s/step - loss: 0.2075 - val_loss: 0.0804
+Epoch 2/100
+
+Epoch 2: val_loss improved from 0.08036 to 0.06545, saving model to best_keypoint_model.keras
+
+Epoch 2: finished saving model to best_keypoint_model.keras
+50/50 - 111s - 2s/step - loss: 0.1877 - val_loss: 0.0654
+Epoch 3/100
+
+Epoch 3: val_loss did not improve from 0.06545
+50/50 - 109s - 2s/step - loss: 0.1811 - val_loss: 0.0803
+Epoch 4/100
+
+Epoch 4: val_loss did not improve from 0.06545
+50/50 - 109s - 2s/step - loss: 0.1764 - val_loss: 0.0831
+Epoch 5/100
+
+Epoch 5: val_loss did not improve from 0.06545
+50/50 - 110s - 2s/step - loss: 0.1605 - val_loss: 0.0770
+Epoch 6/100
+
+Epoch 6: val_loss did not improve from 0.06545
+50/50 - 109s - 2s/step - loss: 0.1466 - val_loss: 0.0760
+Epoch 7/100
+
+Epoch 7: val_loss did not improve from 0.06545
+50/50 - 110s - 2s/step - loss: 0.1472 - val_loss: 0.0807
+Epoch 8/100
+
+Epoch 8: val_loss did not improve from 0.06545
+50/50 - 109s - 2s/step - loss: 0.1488 - val_loss: 0.0794
+Epoch 9/100
+
+Epoch 9: val_loss did not improve from 0.06545
+50/50 - 109s - 2s/step - loss: 0.1517 - val_loss: 0.0785
+Epoch 10/100
+
+Epoch 10: val_loss did not improve from 0.06545
+50/50 - 109s - 2s/step - loss: 0.1504 - val_loss: 0.0787
+Epoch 11/100
+
+Epoch 11: val_loss did not improve from 0.06545
+50/50 - 109s - 2s/step - loss: 0.1511 - val_loss: 0.0785
+Epoch 12/100
+
+Epoch 12: val_loss did not improve from 0.06545
+50/50 - 109s - 2s/step - loss: 0.1543 - val_loss: 0.0784
+Epoch 13/100
+
+Epoch 13: val_loss did not improve from 0.06545
+50/50 - 110s - 2s/step - loss: 0.1523 - val_loss: 0.0784
+Epoch 14/100
+
+Epoch 14: val_loss did not improve from 0.06545
+50/50 - 109s - 2s/step - loss: 0.1535 - val_loss: 0.0692
+Epoch 15/100
+
+Epoch 15: val_loss did not improve from 0.06545
+50/50 - 109s - 2s/step - loss: 0.1436 - val_loss: 0.0708
+Epoch 16/100
+
+Epoch 16: val_loss improved from 0.06545 to 0.06337, saving model to best_keypoint_model.keras
+
+Epoch 16: finished saving model to best_keypoint_model.keras
+50/50 - 111s - 2s/step - loss: 0.1446 - val_loss: 0.0634
+Epoch 17/100
+
+Epoch 17: val_loss did not improve from 0.06337
+50/50 - 110s - 2s/step - loss: 0.1347 - val_loss: 0.0684
+Epoch 18/100
+
+Epoch 18: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1326 - val_loss: 0.0745
+Epoch 19/100
+
+Epoch 19: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1364 - val_loss: 0.0746
+Epoch 20/100
+
+Epoch 20: val_loss did not improve from 0.06337
+50/50 - 110s - 2s/step - loss: 0.1371 - val_loss: 0.0749
+Epoch 21/100
+
+Epoch 21: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1369 - val_loss: 0.0757
+Epoch 22/100
+
+Epoch 22: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1361 - val_loss: 0.0760
+Epoch 23/100
+
+Epoch 23: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1360 - val_loss: 0.0784
+Epoch 24/100
+
+Epoch 24: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1382 - val_loss: 0.0775
+Epoch 25/100
+
+Epoch 25: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1347 - val_loss: 0.0775
+Epoch 26/100
+
+Epoch 26: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1397 - val_loss: 0.0963
+Epoch 27/100
+
+Epoch 27: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1483 - val_loss: 0.0911
+Epoch 28/100
+
+Epoch 28: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1487 - val_loss: 0.1148
+Epoch 29/100
+
+Epoch 29: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1527 - val_loss: 0.1123
+Epoch 30/100
+
+Epoch 30: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1528 - val_loss: 0.1120
+Epoch 31/100
+
+Epoch 31: val_loss did not improve from 0.06337
+50/50 - 110s - 2s/step - loss: 0.1505 - val_loss: 0.1107
+Epoch 32/100
+
+Epoch 32: val_loss did not improve from 0.06337
+50/50 - 110s - 2s/step - loss: 0.1440 - val_loss: 0.1082
+Epoch 33/100
+
+Epoch 33: val_loss did not improve from 0.06337
+50/50 - 110s - 2s/step - loss: 0.1417 - val_loss: 0.1081
+Epoch 34/100
+
+Epoch 34: val_loss did not improve from 0.06337
+50/50 - 110s - 2s/step - loss: 0.1406 - val_loss: 0.1091
+Epoch 35/100
+
+Epoch 35: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1394 - val_loss: 0.1087
+Epoch 36/100
+
+Epoch 36: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1424 - val_loss: 0.1079
+Epoch 37/100
+
+Epoch 37: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1399 - val_loss: 0.1094
+Epoch 38/100
+
+Epoch 38: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1419 - val_loss: 0.1098
+Epoch 39/100
+
+Epoch 39: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1407 - val_loss: 0.1098
+Epoch 40/100
+
+Epoch 40: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1393 - val_loss: 0.1098
+Epoch 41/100
+
+Epoch 41: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1407 - val_loss: 0.1098
+Epoch 42/100
+
+Epoch 42: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1408 - val_loss: 0.1098
+Epoch 43/100
+
+Epoch 43: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1399 - val_loss: 0.1098
+Epoch 44/100
+
+Epoch 44: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1410 - val_loss: 0.1098
+Epoch 45/100
+
+Epoch 45: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1406 - val_loss: 0.1098
+Epoch 46/100
+
+Epoch 46: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1407 - val_loss: 0.1098
+Epoch 47/100
+
+Epoch 47: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1395 - val_loss: 0.1098
+Epoch 48/100
+
+Epoch 48: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1385 - val_loss: 0.1098
+Epoch 49/100
+
+Epoch 49: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1382 - val_loss: 0.1098
+Epoch 50/100
+
+Epoch 50: val_loss did not improve from 0.06337
+50/50 - 110s - 2s/step - loss: 0.1398 - val_loss: 0.1098
+Epoch 51/100
+
+Epoch 51: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1393 - val_loss: 0.1098
+Epoch 52/100
+
+Epoch 52: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1413 - val_loss: 0.1098
+Epoch 53/100
+
+Epoch 53: val_loss did not improve from 0.06337
+50/50 - 110s - 2s/step - loss: 0.1409 - val_loss: 0.1098
+Epoch 54/100
+
+Epoch 54: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1411 - val_loss: 0.1098
+Epoch 55/100
+
+Epoch 55: val_loss did not improve from 0.06337
+50/50 - 110s - 2s/step - loss: 0.1416 - val_loss: 0.1098
+Epoch 56/100
+
+Epoch 56: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1392 - val_loss: 0.1098
+Epoch 57/100
+
+Epoch 57: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1402 - val_loss: 0.1098
+Epoch 58/100
+
+Epoch 58: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1408 - val_loss: 0.1098
+Epoch 59/100
+
+Epoch 59: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1417 - val_loss: 0.1098
+Epoch 60/100
+
+Epoch 60: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1403 - val_loss: 0.1098
+Epoch 61/100
+
+Epoch 61: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1388 - val_loss: 0.1098
+Epoch 62/100
+
+Epoch 62: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1386 - val_loss: 0.1098
+Epoch 63/100
+
+Epoch 63: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1407 - val_loss: 0.1098
+Epoch 64/100
+
+Epoch 64: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1405 - val_loss: 0.1098
+Epoch 65/100
+
+Epoch 65: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1392 - val_loss: 0.1098
+Epoch 66/100
+
+Epoch 66: val_loss did not improve from 0.06337
+50/50 - 110s - 2s/step - loss: 0.1416 - val_loss: 0.1098
+Epoch 67/100
+
+Epoch 67: val_loss did not improve from 0.06337
+50/50 - 114s - 2s/step - loss: 0.1411 - val_loss: 0.1098
+Epoch 68/100
+
+Epoch 68: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1396 - val_loss: 0.1098
+Epoch 69/100
+
+Epoch 69: val_loss did not improve from 0.06337
+50/50 - 114s - 2s/step - loss: 0.1404 - val_loss: 0.1098
+Epoch 70/100
+
+Epoch 70: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1390 - val_loss: 0.1098
+Epoch 71/100
+
+Epoch 71: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1410 - val_loss: 0.1098
+Epoch 72/100
+
+Epoch 72: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1412 - val_loss: 0.1098
+Epoch 73/100
+
+Epoch 73: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1390 - val_loss: 0.1098
+Epoch 74/100
+
+Epoch 74: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1394 - val_loss: 0.1098
+Epoch 75/100
+
+Epoch 75: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1429 - val_loss: 0.1098
+Epoch 76/100
+
+Epoch 76: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1405 - val_loss: 0.1098
+Epoch 77/100
+
+Epoch 77: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1401 - val_loss: 0.1098
+Epoch 78/100
+
+Epoch 78: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1400 - val_loss: 0.1098
+Epoch 79/100
+
+Epoch 79: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1404 - val_loss: 0.1098
+Epoch 80/100
+
+Epoch 80: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1393 - val_loss: 0.1098
+Epoch 81/100
+
+Epoch 81: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1397 - val_loss: 0.1098
+Epoch 82/100
+
+Epoch 82: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1403 - val_loss: 0.1098
+Epoch 83/100
+
+Epoch 83: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1407 - val_loss: 0.1098
+Epoch 84/100
+
+Epoch 84: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1386 - val_loss: 0.1098
+Epoch 85/100
+
+Epoch 85: val_loss did not improve from 0.06337
+50/50 - 110s - 2s/step - loss: 0.1409 - val_loss: 0.1098
+Epoch 86/100
+
+Epoch 86: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1409 - val_loss: 0.1098
+Epoch 87/100
+
+Epoch 87: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1386 - val_loss: 0.1098
+Epoch 88/100
+
+Epoch 88: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1400 - val_loss: 0.1098
+Epoch 89/100
+
+Epoch 89: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1399 - val_loss: 0.1098
+Epoch 90/100
+
+Epoch 90: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1408 - val_loss: 0.1098
+Epoch 91/100
+
+Epoch 91: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1404 - val_loss: 0.1098
+Epoch 92/100
+
+Epoch 92: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1401 - val_loss: 0.1098
+Epoch 93/100
+
+Epoch 93: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1414 - val_loss: 0.1098
+Epoch 94/100
+
+Epoch 94: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1415 - val_loss: 0.1098
+Epoch 95/100
+
+Epoch 95: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1410 - val_loss: 0.1098
+Epoch 96/100
+
+Epoch 96: val_loss did not improve from 0.06337
+50/50 - 142s - 3s/step - loss: 0.1411 - val_loss: 0.1098
+Epoch 97/100
+
+Epoch 97: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1387 - val_loss: 0.1098
+Epoch 98/100
+
+Epoch 98: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1405 - val_loss: 0.1098
+Epoch 99/100
+
+Epoch 99: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1415 - val_loss: 0.1098
+Epoch 100/100
+
+Epoch 100: val_loss did not improve from 0.06337
+50/50 - 109s - 2s/step - loss: 0.1410 - val_loss: 0.1098
+Model saved to ./model/keypoint_model.keras
+
+--- Train Set Samples ---
+Train Sample 1 MSE: 0.0868
+Train Sample 2 MSE: 0.1435
+Train Sample 3 MSE: 0.0503
+
+--- Validation Set Samples ---
+Validation Sample 1 MSE: 0.1236
+Validation Sample 2 MSE: 0.1331
+Validation Sample 3 MSE: 0.1149
+Train MPJPE: 0.4475 (normalized units)
+Train MPJPE: 229.12 pixels
+Validation MPJPE: 0.4474 (normalized units)
+Validation MPJPE: 229.05 pixels

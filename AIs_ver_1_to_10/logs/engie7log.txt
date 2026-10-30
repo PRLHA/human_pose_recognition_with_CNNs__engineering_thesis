@@ -1,0 +1,443 @@
+3.11.2 (main, Apr  8 2026, 01:58:00) [GCC 12.2.0]
+Train generator:
+  - 800 images (50 batches of 16)
+Validation generator:
+  - 208 images (13 batches of 16)
+Training new model...
+Epoch 1/100
+
+Epoch 1: val_loss improved from None to 0.07664, saving model to best_keypoint_model.keras
+
+Epoch 1: finished saving model to best_keypoint_model.keras
+50/50 - 168s - 3s/step - loss: 0.2291 - val_loss: 0.0766 - learning_rate: 1.0000e-04
+Epoch 2/100
+
+Epoch 2: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.2187 - val_loss: 0.1025 - learning_rate: 1.0000e-04
+Epoch 3/100
+
+Epoch 3: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.2153 - val_loss: 0.1030 - learning_rate: 1.0000e-04
+Epoch 4/100
+
+Epoch 4: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1911 - val_loss: 0.1107 - learning_rate: 1.0000e-04
+Epoch 5/100
+
+Epoch 5: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1890 - val_loss: 0.1139 - learning_rate: 1.0000e-04
+Epoch 6/100
+
+Epoch 6: ReduceLROnPlateau reducing learning rate to 4.999999873689376e-05.
+
+Epoch 6: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1798 - val_loss: 0.1139 - learning_rate: 1.0000e-04
+Epoch 7/100
+
+Epoch 7: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1756 - val_loss: 0.1132 - learning_rate: 5.0000e-05
+Epoch 8/100
+
+Epoch 8: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1740 - val_loss: 0.1122 - learning_rate: 5.0000e-05
+Epoch 9/100
+
+Epoch 9: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1734 - val_loss: 0.1125 - learning_rate: 5.0000e-05
+Epoch 10/100
+
+Epoch 10: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1732 - val_loss: 0.1131 - learning_rate: 5.0000e-05
+Epoch 11/100
+
+Epoch 11: ReduceLROnPlateau reducing learning rate to 2.499999936844688e-05.
+
+Epoch 11: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1727 - val_loss: 0.1116 - learning_rate: 5.0000e-05
+Epoch 12/100
+
+Epoch 12: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1721 - val_loss: 0.1130 - learning_rate: 2.5000e-05
+Epoch 13/100
+
+Epoch 13: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1718 - val_loss: 0.1129 - learning_rate: 2.5000e-05
+Epoch 14/100
+
+Epoch 14: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1704 - val_loss: 0.1127 - learning_rate: 2.5000e-05
+Epoch 15/100
+
+Epoch 15: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1713 - val_loss: 0.1132 - learning_rate: 2.5000e-05
+Epoch 16/100
+
+Epoch 16: ReduceLROnPlateau reducing learning rate to 1.249999968422344e-05.
+
+Epoch 16: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1714 - val_loss: 0.1130 - learning_rate: 2.5000e-05
+Epoch 17/100
+
+Epoch 17: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1703 - val_loss: 0.1129 - learning_rate: 1.2500e-05
+Epoch 18/100
+
+Epoch 18: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1701 - val_loss: 0.1128 - learning_rate: 1.2500e-05
+Epoch 19/100
+
+Epoch 19: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1701 - val_loss: 0.1129 - learning_rate: 1.2500e-05
+Epoch 20/100
+
+Epoch 20: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1711 - val_loss: 0.1130 - learning_rate: 1.2500e-05
+Epoch 21/100
+
+Epoch 21: ReduceLROnPlateau reducing learning rate to 6.24999984211172e-06.
+
+Epoch 21: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1705 - val_loss: 0.1127 - learning_rate: 1.2500e-05
+Epoch 22/100
+
+Epoch 22: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1698 - val_loss: 0.1127 - learning_rate: 6.2500e-06
+Epoch 23/100
+
+Epoch 23: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1693 - val_loss: 0.1127 - learning_rate: 6.2500e-06
+Epoch 24/100
+
+Epoch 24: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1709 - val_loss: 0.1127 - learning_rate: 6.2500e-06
+Epoch 25/100
+
+Epoch 25: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1705 - val_loss: 0.1128 - learning_rate: 6.2500e-06
+Epoch 26/100
+
+Epoch 26: ReduceLROnPlateau reducing learning rate to 3.12499992105586e-06.
+
+Epoch 26: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1698 - val_loss: 0.1126 - learning_rate: 6.2500e-06
+Epoch 27/100
+
+Epoch 27: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1688 - val_loss: 0.1127 - learning_rate: 3.1250e-06
+Epoch 28/100
+
+Epoch 28: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1709 - val_loss: 0.1127 - learning_rate: 3.1250e-06
+Epoch 29/100
+
+Epoch 29: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1694 - val_loss: 0.1127 - learning_rate: 3.1250e-06
+Epoch 30/100
+
+Epoch 30: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1703 - val_loss: 0.1127 - learning_rate: 3.1250e-06
+Epoch 31/100
+
+Epoch 31: ReduceLROnPlateau reducing learning rate to 1.56249996052793e-06.
+
+Epoch 31: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1703 - val_loss: 0.1127 - learning_rate: 3.1250e-06
+Epoch 32/100
+
+Epoch 32: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1699 - val_loss: 0.1126 - learning_rate: 1.5625e-06
+Epoch 33/100
+
+Epoch 33: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1684 - val_loss: 0.1126 - learning_rate: 1.5625e-06
+Epoch 34/100
+
+Epoch 34: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1703 - val_loss: 0.1126 - learning_rate: 1.5625e-06
+Epoch 35/100
+
+Epoch 35: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1698 - val_loss: 0.1127 - learning_rate: 1.5625e-06
+Epoch 36/100
+
+Epoch 36: ReduceLROnPlateau reducing learning rate to 7.81249980263965e-07.
+
+Epoch 36: val_loss did not improve from 0.07664
+50/50 - 142s - 3s/step - loss: 0.1708 - val_loss: 0.1126 - learning_rate: 1.5625e-06
+Epoch 37/100
+
+Epoch 37: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1697 - val_loss: 0.1126 - learning_rate: 7.8125e-07
+Epoch 38/100
+
+Epoch 38: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1705 - val_loss: 0.1127 - learning_rate: 7.8125e-07
+Epoch 39/100
+
+Epoch 39: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1705 - val_loss: 0.1126 - learning_rate: 7.8125e-07
+Epoch 40/100
+
+Epoch 40: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1698 - val_loss: 0.1126 - learning_rate: 7.8125e-07
+Epoch 41/100
+
+Epoch 41: ReduceLROnPlateau reducing learning rate to 3.906249901319825e-07.
+
+Epoch 41: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1695 - val_loss: 0.1126 - learning_rate: 7.8125e-07
+Epoch 42/100
+
+Epoch 42: val_loss did not improve from 0.07664
+50/50 - 92s - 2s/step - loss: 0.1693 - val_loss: 0.1126 - learning_rate: 3.9062e-07
+Epoch 43/100
+
+Epoch 43: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1706 - val_loss: 0.1126 - learning_rate: 3.9062e-07
+Epoch 44/100
+
+Epoch 44: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1691 - val_loss: 0.1126 - learning_rate: 3.9062e-07
+Epoch 45/100
+
+Epoch 45: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1703 - val_loss: 0.1126 - learning_rate: 3.9062e-07
+Epoch 46/100
+
+Epoch 46: ReduceLROnPlateau reducing learning rate to 1.9531249506599124e-07.
+
+Epoch 46: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1696 - val_loss: 0.1126 - learning_rate: 3.9062e-07
+Epoch 47/100
+
+Epoch 47: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1704 - val_loss: 0.1126 - learning_rate: 1.9531e-07
+Epoch 48/100
+
+Epoch 48: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1707 - val_loss: 0.1126 - learning_rate: 1.9531e-07
+Epoch 49/100
+
+Epoch 49: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1697 - val_loss: 0.1126 - learning_rate: 1.9531e-07
+Epoch 50/100
+
+Epoch 50: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1709 - val_loss: 0.1126 - learning_rate: 1.9531e-07
+Epoch 51/100
+
+Epoch 51: ReduceLROnPlateau reducing learning rate to 1e-07.
+
+Epoch 51: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1708 - val_loss: 0.1126 - learning_rate: 1.9531e-07
+Epoch 52/100
+
+Epoch 52: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1702 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 53/100
+
+Epoch 53: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1692 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 54/100
+
+Epoch 54: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1699 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 55/100
+
+Epoch 55: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1695 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 56/100
+
+Epoch 56: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1697 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 57/100
+
+Epoch 57: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1699 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 58/100
+
+Epoch 58: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1703 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 59/100
+
+Epoch 59: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1702 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 60/100
+
+Epoch 60: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1703 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 61/100
+
+Epoch 61: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1693 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 62/100
+
+Epoch 62: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1689 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 63/100
+
+Epoch 63: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1702 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 64/100
+
+Epoch 64: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1695 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 65/100
+
+Epoch 65: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1709 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 66/100
+
+Epoch 66: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1697 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 67/100
+
+Epoch 67: val_loss did not improve from 0.07664
+50/50 - 92s - 2s/step - loss: 0.1701 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 68/100
+
+Epoch 68: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1691 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 69/100
+
+Epoch 69: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1698 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 70/100
+
+Epoch 70: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1705 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 71/100
+
+Epoch 71: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1685 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 72/100
+
+Epoch 72: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1697 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 73/100
+
+Epoch 73: val_loss did not improve from 0.07664
+50/50 - 142s - 3s/step - loss: 0.1698 - val_loss: 0.1126 - learning_rate: 1.0000e-07
+Epoch 74/100
+
+Epoch 74: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1688 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 75/100
+
+Epoch 75: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1702 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 76/100
+
+Epoch 76: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1699 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 77/100
+
+Epoch 77: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1696 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 78/100
+
+Epoch 78: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1694 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 79/100
+
+Epoch 79: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1698 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 80/100
+
+Epoch 80: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1697 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 81/100
+
+Epoch 81: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1697 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 82/100
+
+Epoch 82: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1689 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 83/100
+
+Epoch 83: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1699 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 84/100
+
+Epoch 84: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1695 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 85/100
+
+Epoch 85: val_loss did not improve from 0.07664
+50/50 - 142s - 3s/step - loss: 0.1696 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 86/100
+
+Epoch 86: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1695 - val_loss: 0.1125 - learning_rate: 1.0000e-07
+Epoch 87/100
+
+Epoch 87: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1701 - val_loss: 0.1124 - learning_rate: 1.0000e-07
+Epoch 88/100
+
+Epoch 88: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1700 - val_loss: 0.1124 - learning_rate: 1.0000e-07
+Epoch 89/100
+
+Epoch 89: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1696 - val_loss: 0.1124 - learning_rate: 1.0000e-07
+Epoch 90/100
+
+Epoch 90: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1684 - val_loss: 0.1123 - learning_rate: 1.0000e-07
+Epoch 91/100
+
+Epoch 91: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1700 - val_loss: 0.1122 - learning_rate: 1.0000e-07
+Epoch 92/100
+
+Epoch 92: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1692 - val_loss: 0.1122 - learning_rate: 1.0000e-07
+Epoch 93/100
+
+Epoch 93: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1679 - val_loss: 0.1122 - learning_rate: 1.0000e-07
+Epoch 94/100
+
+Epoch 94: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1691 - val_loss: 0.1121 - learning_rate: 1.0000e-07
+Epoch 95/100
+
+Epoch 95: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1692 - val_loss: 0.1121 - learning_rate: 1.0000e-07
+Epoch 96/100
+
+Epoch 96: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1693 - val_loss: 0.1121 - learning_rate: 1.0000e-07
+Epoch 97/100
+
+Epoch 97: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1696 - val_loss: 0.1121 - learning_rate: 1.0000e-07
+Epoch 98/100
+
+Epoch 98: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1699 - val_loss: 0.1121 - learning_rate: 1.0000e-07
+Epoch 99/100
+
+Epoch 99: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1692 - val_loss: 0.1121 - learning_rate: 1.0000e-07
+Epoch 100/100
+
+Epoch 100: val_loss did not improve from 0.07664
+50/50 - 88s - 2s/step - loss: 0.1694 - val_loss: 0.1121 - learning_rate: 1.0000e-07
+Model saved to ./model/keypoint_model.keras
+
+--- Train Set Samples ---
+Train Sample 1 MSE: 0.1091
+Train Sample 2 MSE: 0.1280
+Train Sample 3 MSE: 0.0854
+
+--- Validation Set Samples ---
+Validation Sample 1 MSE: 0.1165
+Validation Sample 2 MSE: 0.1249
+Validation Sample 3 MSE: 0.1135
+Train MPJPE: 0.3977 (normalized units)
+Train MPJPE: 203.62 pixels
+Validation MPJPE: 0.3988 (normalized units)
+Validation MPJPE: 204.18 pixels
